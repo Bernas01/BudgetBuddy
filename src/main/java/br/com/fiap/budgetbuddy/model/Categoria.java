@@ -2,7 +2,7 @@ package br.com.fiap.budgetbuddy.model;
 
 import java.util.Random;
 
-//imutável
+//imutávell
 public record Categoria (Long id, String nome, String icone)  {
 
     public Categoria(Long id, String nome, String icone){
